@@ -5,22 +5,36 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 img{
   display: block;
   margin: 0 auto;
 }
+span{
+  display: inline-block;
+  margin: 0.5rem;
+}
 
-
+/******************************************
+/* HEADINGS
+/*******************************************/
+h1 {
+  margin: 1.5rem 1rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 #map {
-  height: 70vh;
+  height: 90vh;
   width: 100%;
 }
 
